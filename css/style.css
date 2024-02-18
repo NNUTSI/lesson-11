@@ -12,9 +12,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.fa-bars {
+.fa-solid {
   display: none;
 }
+.fa-bars-progress {
+  font-size: 30px;
+  color: #ff7420;
+}
+
 .logo {
   background-image: url(/pic/logo-o.png);
   width: 280px;
@@ -22,6 +27,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: 20px;
 }
 .header-nav-div {
   max-width: 505px;
@@ -58,15 +64,30 @@
   align-items: center;
 }
 #languages {
-  width: 165px;
+  max-width: 165px;
+  width: 100%;
   background-color: #191a19;
-  padding: 10px 10px;
+  padding: 10px;
   border: none;
   border-radius: 4px;
   color: white;
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 500;
+  margin-right: 6px;
+}
+#lang {
+  display: none;
+  width: 80px;
+  background-color: #191a19;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 6px;
 }
 .content-us {
   background-color: #ff7420;
